@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.render-pipelines.universal",
+  "description": "The Key Render Pipeline (KRP) is a prebuilt Scriptable Render Pipeline, made by GianKey. KRP provides artist-friendly workflows that let you quickly and easily create optimized graphics across a range of platforms, from mobile to high-end consoles and PCs.",
+  "version": "15.0.6",
+  "unity": "2023.1",
+  "displayName": "Key RP",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.burst": "1.8.4",
+    "com.unity.shadergraph": "15.0.6"
+  },
+  "keywords": [
+    "graphics",
+    "performance",
+    "rendering",
+    "Toon",
+    "mobile",
+    "render",
+    "pipeline"
+  ],
+  "author": {
+    "name": "GianKey",
+    "url": "https://github.com/GianKey"
+  },
+  "samples": [
+    {
+      "displayName": "Key RP Package Samples",
+      "description": "Collection of scenes showcasing different features of the Key Render Pipeline.",
+      "path": "Samples~/KeyRPPackageSamples"
+    }
+  ]
+}
